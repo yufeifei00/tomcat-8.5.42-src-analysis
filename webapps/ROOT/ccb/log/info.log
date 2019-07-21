@@ -1,0 +1,516 @@
+2018-05-01 00:27:51.527/sys$topicmanager//startup: creating topics ...
+2018-05-01 00:27:51.529/sys$topicmanager//create topic: testtopic
+2018-05-01 00:27:51.908/sys$topicmanager//create topic: swiftmq.jndi
+2019-04-16 14:02:35.765/sys$topicmanager//startup: creating topics ...
+2019-04-16 14:02:35.870/sys$topicmanager//create topic: testtopic
+2019-04-16 14:02:37.818/sys$topicmanager//create topic: swiftmq.jndi
+2019-04-17 14:22:37.678/sys$topicmanager//startup: creating topics ...
+2019-04-17 14:22:37.695/sys$topicmanager//create topic: testtopic
+2019-04-17 14:22:39.434/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 09:03:59.567/sys$topicmanager//startup: creating topics ...
+2019-05-20 09:03:59.583/sys$topicmanager//create topic: testtopic
+2019-05-20 09:04:00.363/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 10:29:34.603/sys$topicmanager//startup: creating topics ...
+2019-05-20 10:29:34.603/sys$topicmanager//create topic: testtopic
+2019-05-20 10:29:34.853/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 10:30:16.926/sys$topicmanager//startup: creating topics ...
+2019-05-20 10:30:16.926/sys$topicmanager//create topic: testtopic
+2019-05-20 10:30:17.191/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 10:32:33.519/sys$topicmanager//startup: creating topics ...
+2019-05-20 10:32:33.534/sys$topicmanager//create topic: testtopic
+2019-05-20 10:32:33.784/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Display Name: 用户认证子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Description : 用户认证子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Class Name  : com.digitalchina.router.swiftlets.auth.AuthenticationSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Display Name: 企业端适配器
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Description : 企业端适配器
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Class Name  : com.digitalchina.extension.socketadapter.SocketAdapterSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Display Name: JMS子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Description : Java消息服务器子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Class Name  : com.digitalchina.router.swiftlets.jms.JMSSwiftlet
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Display Name: 线程池子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Description : 管理线程池的子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Class Name  : com.digitalchina.router.swiftlets.threadpool.ThreadpoolSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Display Name: Network子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Description : Network连接服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Class Name  : com.digitalchina.router.swiftlets.net.NetworkSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Display Name: 脚本引擎
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Description : 脚本引擎
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Class Name  : com.digitalchina.extension.scriptengine.ScriptEngineSwiftlet
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Vendor      : 神州数码（中国）有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Display Name: 日志子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Description : 日志子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Class Name  : com.digitalchina.router.swiftlets.log.LogSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Display Name: HttpsAdapter 插件
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Description : HttpsAdapter 插件
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Class Name  : com.digitalchina.extension.httpsadapter.HttpsAdapterSwiftlet
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Vendor      : 神州数码(中国)有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Display Name: 路由子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Description : 消息路由子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Class Name  : com.digitalchina.router.swiftlets.routing.RoutingSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Display Name: 队列管理子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Description : 用于管理消息队列的子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Class Name  : com.digitalchina.router.swiftlets.queue.QueueManagerImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Display Name: 定时子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Description : 定时器的管理
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Class Name  : com.digitalchina.router.swiftlets.timer.TimerSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Display Name: 消息主题管理子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Description : 管理消息主题
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Class Name  : com.digitalchina.router.swiftlets.topic.TopicManagerImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Display Name: JNDI子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Description : Java名称服务器
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Class Name  : com.digitalchina.router.swiftlets.jndi.JNDISwiftlet
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Display Name: JMS桥接器插件
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Description : JMS桥接器插件
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Class Name  : com.digitalchina.extension.bridge.BridgeSwiftlet
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Vendor      : 神州数码（中国）有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Display Name: 管理监控子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Description : 远程管理服务器
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Class Name  : com.digitalchina.router.swiftlets.mgmt.MgmtSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Vendor      : 神州数码有限公司
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace has been started
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Display Name: 跟踪子服务
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Description : 提供跟踪信息
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Class Name  : com.digitalchina.router.swiftlets.auth.TraceSwiftletImpl
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Version     : 2.0.0
+2019-05-20 10:32:41.755/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Vendor      : 神州数码有限公司
+2019-05-20 17:53:39.64/sys$topicmanager//startup: creating topics ...
+2019-05-20 17:53:39.66/sys$topicmanager//create topic: testtopic
+2019-05-20 17:53:39.685/sys$topicmanager//create topic: swiftmq.jndi
+2019-05-20 17:53:50.483/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication has been started
+2019-05-20 17:53:50.483/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Display Name: 用户认证子服务
+2019-05-20 17:53:50.483/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Description : 用户认证子服务
+2019-05-20 17:53:50.483/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Class Name  : com.digitalchina.router.swiftlets.auth.AuthenticationSwiftletImpl
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Version     : 2.0.0
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter has been started
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Display Name: 企业端适配器
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Description : 企业端适配器
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Class Name  : com.digitalchina.extension.socketadapter.SocketAdapterSwiftletImpl
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Version     : 2.0.0
+2019-05-20 17:53:50.484/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms has been started
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Display Name: JMS子服务
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Description : Java消息服务器子服务
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Class Name  : com.digitalchina.router.swiftlets.jms.JMSSwiftlet
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Version     : 2.0.0
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.485/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool has been started
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Display Name: 线程池子服务
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Description : 管理线程池的子服务
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Class Name  : com.digitalchina.router.swiftlets.threadpool.ThreadpoolSwiftletImpl
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Version     : 2.0.0
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net has been started
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Display Name: Network子服务
+2019-05-20 17:53:50.486/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Description : Network连接服务
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Class Name  : com.digitalchina.router.swiftlets.net.NetworkSwiftletImpl
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Version     : 2.0.0
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet has been started
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Display Name: 脚本引擎
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Description : 脚本引擎
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Class Name  : com.digitalchina.extension.scriptengine.ScriptEngineSwiftlet
+2019-05-20 17:53:50.487/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Version     : 2.0.0
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Vendor      : 神州数码（中国）有限公司
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log has been started
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Display Name: 日志子服务
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Description : 日志子服务
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Class Name  : com.digitalchina.router.swiftlets.log.LogSwiftletImpl
+2019-05-20 17:53:50.488/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Version     : 2.0.0
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter has been started
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Display Name: HttpsAdapter 插件
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Description : HttpsAdapter 插件
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Class Name  : com.digitalchina.extension.httpsadapter.HttpsAdapterSwiftlet
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Version     : 2.0.0
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Vendor      : 神州数码(中国)有限公司
+2019-05-20 17:53:50.489/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing has been started
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Display Name: 路由子服务
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Description : 消息路由子服务
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Class Name  : com.digitalchina.router.swiftlets.routing.RoutingSwiftletImpl
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Version     : 2.0.0
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager has been started
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Display Name: 队列管理子服务
+2019-05-20 17:53:50.490/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Description : 用于管理消息队列的子服务
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Class Name  : com.digitalchina.router.swiftlets.queue.QueueManagerImpl
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Version     : 2.0.0
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer has been started
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Display Name: 定时子服务
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Description : 定时器的管理
+2019-05-20 17:53:50.491/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Class Name  : com.digitalchina.router.swiftlets.timer.TimerSwiftletImpl
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Version     : 2.0.0
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager has been started
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Display Name: 消息主题管理子服务
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Description : 管理消息主题
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Class Name  : com.digitalchina.router.swiftlets.topic.TopicManagerImpl
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Version     : 2.0.0
+2019-05-20 17:53:50.492/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi has been started
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Display Name: JNDI子服务
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Description : Java名称服务器
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Class Name  : com.digitalchina.router.swiftlets.jndi.JNDISwiftlet
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Version     : 2.0.0
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge has been started
+2019-05-20 17:53:50.493/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Display Name: JMS桥接器插件
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Description : JMS桥接器插件
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Class Name  : com.digitalchina.extension.bridge.BridgeSwiftlet
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Version     : 2.0.0
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Vendor      : 神州数码（中国）有限公司
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt has been started
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Display Name: 管理监控子服务
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Description : 远程管理服务器
+2019-05-20 17:53:50.494/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Class Name  : com.digitalchina.router.swiftlets.mgmt.MgmtSwiftletImpl
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Version     : 2.0.0
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Vendor      : 神州数码有限公司
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace has been started
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Display Name: 跟踪子服务
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Description : 提供跟踪信息
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Class Name  : com.digitalchina.router.swiftlets.auth.TraceSwiftletImpl
+2019-05-20 17:53:50.495/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Version     : 2.0.0
+2019-05-20 17:53:50.496/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Vendor      : 神州数码有限公司
+2019-06-04 17:58:41.720/sys$topicmanager//startup: creating topics ...
+2019-06-04 17:58:41.752/sys$topicmanager//create topic: testtopic
+2019-06-04 17:58:42.656/sys$topicmanager//create topic: swiftmq.jndi
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Display Name: 用户认证子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Description : 用户认证子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Class Name  : com.digitalchina.router.swiftlets.auth.AuthenticationSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Display Name: 企业端适配器
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Description : 企业端适配器
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Class Name  : com.digitalchina.extension.socketadapter.SocketAdapterSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Display Name: JMS子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Description : Java消息服务器子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Class Name  : com.digitalchina.router.swiftlets.jms.JMSSwiftlet
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Display Name: 线程池子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Description : 管理线程池的子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Class Name  : com.digitalchina.router.swiftlets.threadpool.ThreadpoolSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Display Name: Network子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Description : Network连接服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Class Name  : com.digitalchina.router.swiftlets.net.NetworkSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Display Name: 脚本引擎
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Description : 脚本引擎
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Class Name  : com.digitalchina.extension.scriptengine.ScriptEngineSwiftlet
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Vendor      : 神州数码（中国）有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Display Name: 日志子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Description : 日志子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Class Name  : com.digitalchina.router.swiftlets.log.LogSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Display Name: HttpsAdapter 插件
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Description : HttpsAdapter 插件
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Class Name  : com.digitalchina.extension.httpsadapter.HttpsAdapterSwiftlet
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Vendor      : 神州数码(中国)有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Display Name: 路由子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Description : 消息路由子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Class Name  : com.digitalchina.router.swiftlets.routing.RoutingSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Display Name: 队列管理子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Description : 用于管理消息队列的子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Class Name  : com.digitalchina.router.swiftlets.queue.QueueManagerImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer has been started
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Display Name: 定时子服务
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Description : 定时器的管理
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Class Name  : com.digitalchina.router.swiftlets.timer.TimerSwiftletImpl
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Version     : 2.0.0
+2019-06-04 17:59:26.56/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager has been started
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Display Name: 消息主题管理子服务
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Description : 管理消息主题
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Class Name  : com.digitalchina.router.swiftlets.topic.TopicManagerImpl
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Version     : 2.0.0
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi has been started
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Display Name: JNDI子服务
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Description : Java名称服务器
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Class Name  : com.digitalchina.router.swiftlets.jndi.JNDISwiftlet
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Version     : 2.0.0
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge has been started
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Display Name: JMS桥接器插件
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Description : JMS桥接器插件
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Class Name  : com.digitalchina.extension.bridge.BridgeSwiftlet
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Version     : 2.0.0
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Vendor      : 神州数码（中国）有限公司
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt has been started
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Display Name: 管理监控子服务
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Description : 远程管理服务器
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Class Name  : com.digitalchina.router.swiftlets.mgmt.MgmtSwiftletImpl
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Version     : 2.0.0
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Vendor      : 神州数码有限公司
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace has been started
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Display Name: 跟踪子服务
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Description : 提供跟踪信息
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Class Name  : com.digitalchina.router.swiftlets.auth.TraceSwiftletImpl
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Version     : 2.0.0
+2019-06-04 17:59:26.71/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Vendor      : 神州数码有限公司
+2019-06-05 11:39:00.118/sys$topicmanager//startup: creating topics ...
+2019-06-05 11:39:00.172/sys$topicmanager//create topic: testtopic
+2019-06-05 11:39:01.860/sys$topicmanager//create topic: swiftmq.jndi
+2019-06-05 11:39:21.152/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication has been started
+2019-06-05 11:39:21.152/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Display Name: 用户认证子服务
+2019-06-05 11:39:21.152/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Description : 用户认证子服务
+2019-06-05 11:39:21.152/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Class Name  : com.digitalchina.router.swiftlets.auth.AuthenticationSwiftletImpl
+2019-06-05 11:39:21.152/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Version     : 2.0.0
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter has been started
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Display Name: 企业端适配器
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Description : 企业端适配器
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Class Name  : com.digitalchina.extension.socketadapter.SocketAdapterSwiftletImpl
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Version     : 2.0.0
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.153/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms has been started
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Display Name: JMS子服务
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Description : Java消息服务器子服务
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Class Name  : com.digitalchina.router.swiftlets.jms.JMSSwiftlet
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Version     : 2.0.0
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool has been started
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Display Name: 线程池子服务
+2019-06-05 11:39:21.154/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Description : 管理线程池的子服务
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Class Name  : com.digitalchina.router.swiftlets.threadpool.ThreadpoolSwiftletImpl
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Version     : 2.0.0
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net has been started
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Display Name: Network子服务
+2019-06-05 11:39:21.155/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Description : Network连接服务
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Class Name  : com.digitalchina.router.swiftlets.net.NetworkSwiftletImpl
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Version     : 2.0.0
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet has been started
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Display Name: 脚本引擎
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Description : 脚本引擎
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Class Name  : com.digitalchina.extension.scriptengine.ScriptEngineSwiftlet
+2019-06-05 11:39:21.156/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Version     : 2.0.0
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Vendor      : 神州数码（中国）有限公司
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log has been started
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Display Name: 日志子服务
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Description : 日志子服务
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Class Name  : com.digitalchina.router.swiftlets.log.LogSwiftletImpl
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Version     : 2.0.0
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter has been started
+2019-06-05 11:39:21.157/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Display Name: HttpsAdapter 插件
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Description : HttpsAdapter 插件
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Class Name  : com.digitalchina.extension.httpsadapter.HttpsAdapterSwiftlet
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Version     : 2.0.0
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Vendor      : 神州数码(中国)有限公司
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing has been started
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Display Name: 路由子服务
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Description : 消息路由子服务
+2019-06-05 11:39:21.158/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Class Name  : com.digitalchina.router.swiftlets.routing.RoutingSwiftletImpl
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Version     : 2.0.0
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager has been started
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Display Name: 队列管理子服务
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Description : 用于管理消息队列的子服务
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Class Name  : com.digitalchina.router.swiftlets.queue.QueueManagerImpl
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Version     : 2.0.0
+2019-06-05 11:39:21.159/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer has been started
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Display Name: 定时子服务
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Description : 定时器的管理
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Class Name  : com.digitalchina.router.swiftlets.timer.TimerSwiftletImpl
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Version     : 2.0.0
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.160/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager has been started
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Display Name: 消息主题管理子服务
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Description : 管理消息主题
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Class Name  : com.digitalchina.router.swiftlets.topic.TopicManagerImpl
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Version     : 2.0.0
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi has been started
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Display Name: JNDI子服务
+2019-06-05 11:39:21.161/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Description : Java名称服务器
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Class Name  : com.digitalchina.router.swiftlets.jndi.JNDISwiftlet
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Version     : 2.0.0
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge has been started
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Display Name: JMS桥接器插件
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Description : JMS桥接器插件
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Class Name  : com.digitalchina.extension.bridge.BridgeSwiftlet
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Version     : 2.0.0
+2019-06-05 11:39:21.162/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Vendor      : 神州数码（中国）有限公司
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt has been started
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Display Name: 管理监控子服务
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Description : 远程管理服务器
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Class Name  : com.digitalchina.router.swiftlets.mgmt.MgmtSwiftletImpl
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Version     : 2.0.0
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Vendor      : 神州数码有限公司
+2019-06-05 11:39:21.163/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace has been started
+2019-06-05 11:39:21.164/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Display Name: 跟踪子服务
+2019-06-05 11:39:21.164/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Description : 提供跟踪信息
+2019-06-05 11:39:21.164/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Class Name  : com.digitalchina.router.swiftlets.auth.TraceSwiftletImpl
+2019-06-05 11:39:21.164/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Version     : 2.0.0
+2019-06-05 11:39:21.164/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Vendor      : 神州数码有限公司
+2019-06-05 14:11:04.322/sys$topicmanager//startup: creating topics ...
+2019-06-05 14:11:04.325/sys$topicmanager//create topic: testtopic
+2019-06-05 14:11:04.697/sys$topicmanager//create topic: swiftmq.jndi
+2019-06-05 14:11:06.172/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log has been started
+2019-06-05 14:11:06.172/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Display Name: 日志子服务
+2019-06-05 14:11:06.172/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Description : 日志子服务
+2019-06-05 14:11:06.172/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Class Name  : com.digitalchina.router.swiftlets.log.LogSwiftletImpl
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Version     : 2.0.0
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$log, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi has been started
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Display Name: JNDI子服务
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Description : Java名称服务器
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Class Name  : com.digitalchina.router.swiftlets.jndi.JNDISwiftlet
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Version     : 2.0.0
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jndi, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager has been started
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Display Name: 队列管理子服务
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Description : 用于管理消息队列的子服务
+2019-06-05 14:11:06.173/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Class Name  : com.digitalchina.router.swiftlets.queue.QueueManagerImpl
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Version     : 2.0.0
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$queuemanager, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net has been started
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Display Name: Network子服务
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Description : Network连接服务
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Class Name  : com.digitalchina.router.swiftlets.net.NetworkSwiftletImpl
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Version     : 2.0.0
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$net, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool has been started
+2019-06-05 14:11:06.174/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Display Name: 线程池子服务
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Description : 管理线程池的子服务
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Class Name  : com.digitalchina.router.swiftlets.threadpool.ThreadpoolSwiftletImpl
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Version     : 2.0.0
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$threadpool, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace has been started
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Display Name: 跟踪子服务
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Description : 提供跟踪信息
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Class Name  : com.digitalchina.router.swiftlets.auth.TraceSwiftletImpl
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Version     : 2.0.0
+2019-06-05 14:11:06.175/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$trace, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication has been started
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Display Name: 用户认证子服务
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Description : 用户认证子服务
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Class Name  : com.digitalchina.router.swiftlets.auth.AuthenticationSwiftletImpl
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Version     : 2.0.0
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$authentication, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter has been started
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Display Name: 企业端适配器
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Description : 企业端适配器
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Class Name  : com.digitalchina.extension.socketadapter.SocketAdapterSwiftletImpl
+2019-06-05 14:11:06.176/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Version     : 2.0.0
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet socket$adapter, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter has been started
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Display Name: HttpsAdapter 插件
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Description : HttpsAdapter 插件
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Class Name  : com.digitalchina.extension.httpsadapter.HttpsAdapterSwiftlet
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Version     : 2.0.0
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet httpsadapter, Vendor      : 神州数码(中国)有限公司
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms has been started
+2019-06-05 14:11:06.177/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Display Name: JMS子服务
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Description : Java消息服务器子服务
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Class Name  : com.digitalchina.router.swiftlets.jms.JMSSwiftlet
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Version     : 2.0.0
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$jms, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer has been started
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Display Name: 定时子服务
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Description : 定时器的管理
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Class Name  : com.digitalchina.router.swiftlets.timer.TimerSwiftletImpl
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Version     : 2.0.0
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$timer, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager has been started
+2019-06-05 14:11:06.178/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Display Name: 消息主题管理子服务
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Description : 管理消息主题
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Class Name  : com.digitalchina.router.swiftlets.topic.TopicManagerImpl
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Version     : 2.0.0
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$topicmanager, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet has been started
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Display Name: 脚本引擎
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Description : 脚本引擎
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Class Name  : com.digitalchina.extension.scriptengine.ScriptEngineSwiftlet
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Version     : 2.0.0
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet scriptlet, Vendor      : 神州数码（中国）有限公司
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge has been started
+2019-06-05 14:11:06.179/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Display Name: JMS桥接器插件
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Description : JMS桥接器插件
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Class Name  : com.digitalchina.extension.bridge.BridgeSwiftlet
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Version     : 2.0.0
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet bridge, Vendor      : 神州数码（中国）有限公司
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt has been started
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Display Name: 管理监控子服务
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Description : 远程管理服务器
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Class Name  : com.digitalchina.router.swiftlets.mgmt.MgmtSwiftletImpl
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Version     : 2.0.0
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$mgmt, Vendor      : 神州数码有限公司
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing has been started
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Display Name: 路由子服务
+2019-06-05 14:11:06.180/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Description : 消息路由子服务
+2019-06-05 14:11:06.181/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Class Name  : com.digitalchina.router.swiftlets.routing.RoutingSwiftletImpl
+2019-06-05 14:11:06.181/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Version     : 2.0.0
+2019-06-05 14:11:06.181/Sm@rtletManager//initSm@rtlets: Sm@rtlet sys$routing, Vendor      : 神州数码有限公司
+2019-06-14 11:35:13.950/sys$topicmanager//startup: creating topics ...
+2019-06-14 11:35:13.954/sys$topicmanager//create topic: testtopic
+2019-06-14 11:35:14.476/sys$topicmanager//create topic: swiftmq.jndi
