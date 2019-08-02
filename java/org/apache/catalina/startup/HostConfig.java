@@ -1045,14 +1045,13 @@ public class HostConfig implements LifecycleListener {
                     continue;
 
                 /**
-                 * update by pipixia start
+                 * update by yufeifei start
                  */
                 deployDirectory(cn,dir);
-                /**
-                 * update by pipixia end
-                 */
-
 //                results.add(es.submit(new DeployDirectory(this, cn, dir)));
+                /**
+                 * update by yufeifei end
+                 */
             }
         }
 

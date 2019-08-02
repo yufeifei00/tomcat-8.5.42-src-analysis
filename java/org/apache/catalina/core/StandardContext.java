@@ -5131,7 +5131,7 @@ public class StandardContext extends ContainerBase
                 }
 
                 /**
-                 * add by pipixia: important, this step will let ContextConfig parse web.xml
+                 * add by yufeifei: important, this step will let ContextConfig parse web.xml
                  */
                 // Notify our interested LifecycleListeners
                 fireLifecycleEvent(Lifecycle.CONFIGURE_START_EVENT, null);
