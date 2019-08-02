@@ -108,7 +108,7 @@
 # -----------------------------------------------------------------------------
 
 # OS specific support.  $var _must_ be set to either true or false.
-cygwin=false
+cygwin=false # 在windows平台上运行的类UNIX模拟环境的软件
 darwin=false
 os400=false
 hpux=false
