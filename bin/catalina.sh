@@ -108,10 +108,10 @@
 # -----------------------------------------------------------------------------
 
 # OS specific support.  $var _must_ be set to either true or false.
-cygwin=false # 在windows平台上运行的类UNIX模拟环境的软件
-darwin=false
-os400=false
-hpux=false
+cygwin=false # add by yufeifei: 在windows平台上运行的类UNIX模拟环境
+darwin=false # add by yufeifei: MacOSX操作系统
+os400=false # add by yufeifei: 是IBM公司为其AS/400以及AS/400e系列商业计算机开发的操作系统
+hpux=false # add by yufeifei: 是“Hewlett Packard UniX”的简称，是惠普系列服务器的操作系统
 case "`uname`" in
 CYGWIN*) cygwin=true;;
 Darwin*) darwin=true;;
@@ -119,6 +119,7 @@ OS400*) os400=true;;
 HP-UX*) hpux=true;;
 esac
 
+# add by yufeifei: 如果脚本路径是一个软链，找到真实目录
 # resolve links - $0 may be a softlink
 PRG="$0"
 
@@ -135,12 +136,15 @@ done
 # Get standard environment variables
 PRGDIR=`dirname "$PRG"`
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。初始化CATALINA_HOME环境变量。
 # Only set CATALINA_HOME if not already set
 [ -z "$CATALINA_HOME" ] && CATALINA_HOME=`cd "$PRGDIR/.." >/dev/null; pwd`
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。初始化CATALINA_BASE环境变量。
 # Copy CATALINA_BASE from CATALINA_HOME if not already set
 [ -z "$CATALINA_BASE" ] && CATALINA_BASE="$CATALINA_HOME"
 
+# add by yufeifei: shell -r 如果FILE存在且是可读的则为真。执行setenv.sh脚本导出环境变量。
 # Ensure that any user defined CLASSPATH variables are not used on startup,
 # but allow them to be specified in setenv.sh, in rare case when it is needed.
 CLASSPATH=
@@ -151,6 +155,7 @@ elif [ -r "$CATALINA_HOME/bin/setenv.sh" ]; then
   . "$CATALINA_HOME/bin/setenv.sh"
 fi
 
+# add by yufeifei: shell -n 长度为非零则为真。在windows平台上运行的类UNIX模拟环境，按照对应格式设置环境变量。
 # For Cygwin, ensure paths are in UNIX format before anything is touched
 if $cygwin; then
   [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
@@ -160,6 +165,7 @@ if $cygwin; then
   [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
 fi
 
+# add by yufeifei: CATALINA_HOME和CATALINA_BASE环境变量中不能有特殊字符冒号
 # Ensure that neither CATALINA_HOME nor CATALINA_BASE contains a colon
 # as this is used as the separator in the classpath and Java provides no
 # mechanism for escaping if the same character appears in the path.
@@ -174,6 +180,7 @@ case $CATALINA_BASE in
        exit 1;
 esac
 
+# add by yufeifei: IBM公司为其AS/400以及AS/400e系列商业计算机开发的操作系统，按照对应格式设置环境变量。
 # For OS400
 if $os400; then
   # Set job priority to standard for interactive (interactive - 6) by using
@@ -193,6 +200,7 @@ if $os400; then
   # 2. owned by the PRIMARY group of the user
   # this will not work if the user belongs in secondary groups
   . "$CATALINA_HOME"/bin/setclasspath.sh
+# add by yufeifei: shell -r 如果FILE存在且是可读的则为真。执行setclasspath.sh脚本，设置环境变量
 else
   if [ -r "$CATALINA_HOME"/bin/setclasspath.sh ]; then
     . "$CATALINA_HOME"/bin/setclasspath.sh
@@ -203,21 +211,25 @@ else
   fi
 fi
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。初始化当前class path，把tomcat的bootstrap.jar加入class path
 # Add on extra jar files to CLASSPATH
 if [ ! -z "$CLASSPATH" ] ; then
   CLASSPATH="$CLASSPATH":
 fi
 CLASSPATH="$CLASSPATH""$CATALINA_HOME"/bin/bootstrap.jar
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。初始化日志输出文件
 if [ -z "$CATALINA_OUT" ] ; then
   CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out
 fi
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。初始化temp目录
 if [ -z "$CATALINA_TMPDIR" ] ; then
   # Define the java.io.tmpdir to use for Catalina
   CATALINA_TMPDIR="$CATALINA_BASE"/temp
 fi
 
+# add by yufeifei: 在class path中加入tomcat-juli.jar
 # Add tomcat-juli.jar to classpath
 # tomcat-juli.jar can be over-ridden per instance
 if [ -r "$CATALINA_BASE/bin/tomcat-juli.jar" ] ; then
@@ -226,12 +238,14 @@ else
   CLASSPATH=$CLASSPATH:$CATALINA_HOME/bin/tomcat-juli.jar
 fi
 
+# add by yufeifei: shell -t 如果文件描述符 FD 打开且指向一个终端则为真。判断输出是否有可用终端。
 # Bugzilla 37848: When no TTY is available, don't output to console
 have_tty=0
 if [ -t 1 ]; then
     have_tty=1
 fi
 
+# add by yufeifei: 在windows平台上运行的类UNIX模拟环境，按照windows操作系统格式设置环境变量。 shell -n 长度为非零则为真。
 # For Cygwin, switch paths to Windows format before running java
 if $cygwin; then
   JAVA_HOME=`cygpath --absolute --windows "$JAVA_HOME"`
@@ -243,15 +257,18 @@ if $cygwin; then
   [ -n "$JAVA_ENDORSED_DIRS" ] && JAVA_ENDORSED_DIRS=`cygpath --path --windows "$JAVA_ENDORSED_DIRS"`
 fi
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。ephemeralDHKeySize启动参数用来设置ssl协议DH算法秘钥长度，避免安全漏洞。
 if [ -z "$JSSE_OPTS" ] ; then
   JSSE_OPTS="-Djdk.tls.ephemeralDHKeySize=2048"
 fi
 JAVA_OPTS="$JAVA_OPTS $JSSE_OPTS"
 
+# add by yufeifei: 加入启动参数java.protocol.handler.pkgs，用来处理特殊文件URL
 # Register custom URL handlers
 # Do this here so custom URL handles (specifically 'war:...') can be used in the security policy
 JAVA_OPTS="$JAVA_OPTS -Djava.protocol.handler.pkgs=org.apache.catalina.webresources"
 
+# add by yufeifei: shell -z 如果字符串长度为0则为真。shell -r 如果FILE存在且是可读的则为真。设置默认tomcat日志配置。
 # Set juli LogManager config file if it is present and an override has not been issued
 if [ -z "$LOGGING_CONFIG" ]; then
   if [ -r "$CATALINA_BASE"/conf/logging.properties ]; then
@@ -262,10 +279,12 @@ if [ -z "$LOGGING_CONFIG" ]; then
   fi
 fi
 
+# add by yufeifei: 设置tomcat默认日志管理类
 if [ -z "$LOGGING_MANAGER" ]; then
   LOGGING_MANAGER="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"
 fi
 
+# add by yufeifei: 设置默认权限
 # Set UMASK unless it has been overridden
 if [ -z "$UMASK" ]; then
     UMASK="0027"
@@ -401,7 +420,8 @@ elif [ "$1" = "run" ]; then
   fi
 
 elif [ "$1" = "start" ] ; then
-
+  # add by yufeifei: shell -z 长度为零则为真, -f 如果FILE存在且是一个普通文件则为真, -s 如果FILE存在且大小不为0则为真,
+  # -r 如果FILE存在且是可读的则为真，-eq 相等， $? 退出码 。 如果指定了PID文件，则判断进程是否已经启动。
   if [ ! -z "$CATALINA_PID" ]; then
     if [ -f "$CATALINA_PID" ]; then
       if [ -s "$CATALINA_PID" ]; then
@@ -442,6 +462,7 @@ elif [ "$1" = "start" ] ; then
     fi
   fi
 
+  # add by yufeifei: shell shift 将参数列表中第一个参数移除
   shift
   touch "$CATALINA_OUT"
   if [ "$1" = "-security" ] ; then

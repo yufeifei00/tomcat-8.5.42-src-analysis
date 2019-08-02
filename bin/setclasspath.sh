@@ -21,6 +21,7 @@
 #  endorsed directory.
 # -----------------------------------------------------------------------------
 
+# shell -z 如果字符串长度为0则为真。初始化JAVA_HOME和JRE_HOME环境变量
 # Make sure prerequisite environment variables are set
 if [ -z "$JAVA_HOME" ] && [ -z "$JRE_HOME" ]; then
   if $darwin; then
@@ -58,6 +59,7 @@ if [ -z "$JRE_HOME" ]; then
   JRE_HOME="$JAVA_HOME"
 fi
 
+# 如果以debug模式启动，需要完整的jdk，包含java、javac、jdb
 # If we're running under jdb, we need a full jdk.
 if [ "$1" = "debug" ] ; then
   if [ "$os400" = "true" ]; then
@@ -77,6 +79,7 @@ if [ "$1" = "debug" ] ; then
   fi
 fi
 
+# shell -z 如果字符串长度为0则为真, -d 如果FILE存在且是一个目录则为真. 初始化JAVA_ENDORSED_DIRS环境变量，用来覆盖JDK系统类。
 # Don't override the endorsed dir if the user has set it previously
 if [ -z "$JAVA_ENDORSED_DIRS" ]; then
   # Java 9 no longer supports the java.endorsed.dirs
@@ -87,10 +90,13 @@ if [ -z "$JAVA_ENDORSED_DIRS" ]; then
   fi
 fi
 
+# shell -z 如果字符串长度为0则为真。设置调用java的标准命令。
 # Set standard commands for invoking Java, if not already set.
 if [ -z "$_RUNJAVA" ]; then
   _RUNJAVA="$JRE_HOME"/bin/java
 fi
+
+# shell -z 如果字符串长度为0则为真。设置调用jdb的标准命令。
 if [ "$os400" != "true" ]; then
   if [ -z "$_RUNJDB" ]; then
     _RUNJDB="$JAVA_HOME"/bin/jdb

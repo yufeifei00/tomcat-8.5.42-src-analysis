@@ -25,6 +25,7 @@ case "`uname`" in
 OS400*) os400=true;;
 esac
 
+# add by yufeifei: 如果脚本路径是一个软链，找到真实目录
 # resolve links - $0 may be a softlink
 PRG="$0"
 
