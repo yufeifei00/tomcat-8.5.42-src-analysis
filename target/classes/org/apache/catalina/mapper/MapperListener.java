@@ -104,7 +104,7 @@ public class MapperListener extends LifecycleMBeanBase
         findDefaultHost();
 
         /**
-         * add by pipixia : add listener itself to engine,host,context,wrappers
+         * add by yufeifei : add listener itself to engine,host,context,wrappers
          */
         addListeners(engine);
 

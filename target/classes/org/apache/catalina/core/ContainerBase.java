@@ -932,7 +932,7 @@ public abstract class ContainerBase extends LifecycleMBeanBase
         Container children[] = findChildren();
 
         /**
-         * update by pipixia start
+         * update by yufeifei start
          */
         for (int i=0;i<children.length;i++) {
             children[i].start();
@@ -963,7 +963,7 @@ public abstract class ContainerBase extends LifecycleMBeanBase
 //        }
 
         /**
-         * update by pipixia end
+         * update by yufeifei end
          */
 
         // Start the Valves in our pipeline (including the basic), if any
@@ -972,7 +972,7 @@ public abstract class ContainerBase extends LifecycleMBeanBase
         }
 
         /**
-         * add by pipixia: 通过事件机制通知HostConfig去做deploy war包操作，并且把context作为child添加到Host
+         * add by yufeifei: 通过事件机制通知HostConfig去做deploy war包操作，并且把context作为child添加到Host
          */
         setState(LifecycleState.STARTING);
 
