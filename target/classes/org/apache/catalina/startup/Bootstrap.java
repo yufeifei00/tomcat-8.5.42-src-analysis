@@ -254,18 +254,29 @@ public final class Bootstrap {
      */
     public void init() throws Exception {
 
+        /**
+         * add by yufeifei: 使用CATALINA_BASE、CATALINA_HOME 的lib库创建class loader
+         * 支持三个class loader设置为不同的class loader，可以通过conf/catalina.properties进行配置
+         * 默认sharedLoader = catalinaLoader = commonLoader
+         */
         initClassLoaders();
 
         Thread.currentThread().setContextClassLoader(catalinaLoader);
 
         SecurityClassLoad.securityClassLoad(catalinaLoader);
 
+        /**
+         * add by yufeifei: 创建Catalina实例作为catalinaDaemon属性
+         */
         // Load our startup class and call its process() method
         if (log.isDebugEnabled())
             log.debug("Loading startup class");
         Class<?> startupClass = catalinaLoader.loadClass("org.apache.catalina.startup.Catalina");
         Object startupInstance = startupClass.getConstructor().newInstance();
 
+        /**
+         * add by yufeifei: 设置Catalina的父加载器为sharedLoader
+         */
         // Set the shared extensions class loader
         if (log.isDebugEnabled())
             log.debug("Setting startup class properties");
@@ -456,6 +467,9 @@ public final class Bootstrap {
      */
     public static void main(String args[]) {
 
+        /**
+         * add by yufeifei: 初始化class loader 和 Catalina实例
+         */
         if (daemon == null) {
             // Don't set daemon until init() has completed
             Bootstrap bootstrap = new Bootstrap();
