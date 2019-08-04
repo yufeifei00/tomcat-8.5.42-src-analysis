@@ -292,10 +292,22 @@ public class Catalina {
         digester.setUseContextClassLoader(true);
 
         // Configure the actions we will be using
+        /**
+         * 添加对象创建规则：
+         * 匹配xml文件中的Server节点，读取Server节点的className属性，如果有值就进行实例化，否则创建默认对象的实例。
+         * 这里创建默认的org.apache.catalina.core.StandardServer对象的实例。
+         */
         digester.addObjectCreate("Server",
                                  "org.apache.catalina.core.StandardServer",
                                  "className");
+        /**
+         * add by yufeifei: 调用xml中Server节点对应属性的set方法，这里会调用setPort(), setShutdown()
+         */
         digester.addSetProperties("Server");
+        /**
+         * add by yufeifei: 调用次栈顶对象的setServer()方法，把解析xml生成的Server对象作为参数。
+         * 这里是调用Catalina类的setServer()方法，把解析生成的StandardServer对象作为参数。
+         */
         digester.addSetNext("Server",
                             "setServer",
                             "org.apache.catalina.Server");
@@ -399,6 +411,9 @@ public class Catalina {
         digester.addRuleSet(new NamingRuleSet("Server/GlobalNamingResources/"));
         digester.addRuleSet(new EngineRuleSet("Server/Service/"));
         digester.addRuleSet(new HostRuleSet("Server/Service/Engine/"));
+        /**
+         * add by yufeifei: 支持在Host节点下面设置更多属性，这里填充设置规则。
+         */
         digester.addRuleSet(new ContextRuleSet("Server/Service/Engine/Host/"));
         addClusterRuleSet(digester, "Server/Service/Engine/Host/Cluster/");
         digester.addRuleSet(new NamingRuleSet("Server/Service/Engine/Host/Context/"));
@@ -537,11 +552,21 @@ public class Catalina {
 
         long t1 = System.nanoTime();
 
+        /**
+         * add by yufeifei: 如果没有系统变量java.io.tmpdir，则打印错误日志
+         */
         initDirs();
 
+        /**
+         * add by yufeifei: 设置命名服务相关的系统变量
+         */
         // Before digester - it may be needed
         initNaming();
 
+        /**
+         * Digester是apache旗下的解析xml文件的工具包，解析xml对象并生成对应java bean，并根据嵌套规则设置java bean的属性，
+         * 执行初始化方法。
+         */
         // Create and execute our Digester
         Digester digester = createStartDigester();
 

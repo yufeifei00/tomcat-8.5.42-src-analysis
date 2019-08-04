@@ -18,6 +18,13 @@ package org.apache.catalina.util;
 
 public class StandardSessionIdGenerator extends SessionIdGeneratorBase {
 
+    /**
+     * add by yufeifei: 通过debug发现StandardSessionIdGenerator对象是如何创建的。
+     */
+    public StandardSessionIdGenerator(){
+        System.out.println("StandardSessionIdGenerator created..");
+    }
+
     @Override
     public String generateSessionId(String route) {
 
